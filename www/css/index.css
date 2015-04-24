@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #f0b5c6;
+}
+
+#container{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 550px;
+    margin: auto;
+}
+
+#logo{
+    width: 209px;
+    height: 66px;
+    margin: 30px auto;
+}
+
+#player{
+    background: url(../img/playerBack.png) top left no-repeat;
+    width: 320px;
+    height: 186px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.control{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 86px;
+}
+
+.control:active{
+    background-position: bottom left;
+}
+
+.play{
+    background: url(../img/playBtn.png) top left no-repeat;
+    top: 52px;
+    left: 64px;
+}
+
+.pause{
+    background: url(../img/stopBtn.png) top left no-repeat;
+    top: 52px;
+    left: 180px;
+}
+
+#titles{
+    background: url(../img/titleBack.png) top left no-repeat;
+    width: 350px;
+    height: 90px;
+    margin: 30px auto;
+}
+
+#titleSong{
+	width: 330px;
+	height: 70px;
+	margin: 0 auto;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+#facebook{
+    width: 47px;
+    height: 61px;
+    margin: 0 auto;
+}
